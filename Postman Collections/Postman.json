@@ -7,7 +7,7 @@
 	"item": [
 		{
 			"name": "getAll",
-			"_postman_id": "efcc2337-79f0-4f84-bdd7-78e5647d5f63",
+			"id": "efcc2337-79f0-4f84-bdd7-78e5647d5f63",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -20,7 +20,7 @@
 		},
 		{
 			"name": "getMovie",
-			"_postman_id": "9c0de7ed-88f4-44c7-ac67-4359f3eb000c",
+			"id": "9c0de7ed-88f4-44c7-ac67-4359f3eb000c",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -33,7 +33,7 @@
 		},
 		{
 			"name": "addMovie",
-			"_postman_id": "5e9041b3-8df9-486c-abcf-8a66c5e21de8",
+			"id": "5e9041b3-8df9-486c-abcf-8a66c5e21de8",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -55,7 +55,7 @@
 		},
 		{
 			"name": "updateMovie",
-			"_postman_id": "1cd6a425-b7d4-4797-b0dc-994a600fe138",
+			"id": "1cd6a425-b7d4-4797-b0dc-994a600fe138",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -77,7 +77,7 @@
 		},
 		{
 			"name": "deleteMovie",
-			"_postman_id": "b39443df-c7f3-4a8a-aa8e-d75ded6e679d",
+			"id": "b39443df-c7f3-4a8a-aa8e-d75ded6e679d",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -85,6 +85,18 @@
 				"method": "DELETE",
 				"header": [],
 				"url": "http://localhost:7770/movie/1681583662371"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "3c93469e-471f-4982-9575-4cb7d9cb8401",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
 			},
 			"response": []
 		}
