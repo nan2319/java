@@ -1,0 +1,92 @@
+{
+	"info": {
+		"_postman_id": "6fde78f0-99ab-4d4f-8b47-36f000f2fd0e",
+		"name": "proyecto final",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getAll",
+			"_postman_id": "efcc2337-79f0-4f84-bdd7-78e5647d5f63",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:7770/movie"
+			},
+			"response": []
+		},
+		{
+			"name": "getMovie",
+			"_postman_id": "9c0de7ed-88f4-44c7-ac67-4359f3eb000c",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:7770/movie/1681583662388"
+			},
+			"response": []
+		},
+		{
+			"name": "addMovie",
+			"_postman_id": "5e9041b3-8df9-486c-abcf-8a66c5e21de8",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \r\n    \"title\": \"Jurassic Park\",\r\n    \"genre\": \"accion/ciencia ficcion\",\r\n    \"director\": \"Steven Spielberg\",\r\n    \"duration\": \"127m\",\r\n    \"actors\": \"Laura Dern, Sam Niel, Jeff Goldblum\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:7770/movie"
+			},
+			"response": []
+		},
+		{
+			"name": "updateMovie",
+			"_postman_id": "1cd6a425-b7d4-4797-b0dc-994a600fe138",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"movieId\": \"1681583905701\",\r\n    \"title\": \"Jurassic Park\",\r\n    \"genre\": \"accion/ciencia ficcion/aventura\",\r\n    \"director\": \"Steven Spielberg\",\r\n    \"duration\": \"127m\",\r\n    \"actors\": \"Laura Dern, Sam Niel, Jeff Goldblum\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:7770/movie/1681583905701"
+			},
+			"response": []
+		},
+		{
+			"name": "deleteMovie",
+			"_postman_id": "b39443df-c7f3-4a8a-aa8e-d75ded6e679d",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:7770/movie/1681583662371"
+			},
+			"response": []
+		}
+	]
+}
